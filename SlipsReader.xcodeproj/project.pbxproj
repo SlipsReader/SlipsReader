@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62DC27F12C4FC604002445CB /* SlipsReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC27F02C4FC604002445CB /* SlipsReaderApp.swift */; };
+		62DC27F32C4FC604002445CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC27F22C4FC604002445CB /* ContentView.swift */; };
+		62DC27F52C4FC605002445CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DC27F42C4FC605002445CB /* Assets.xcassets */; };
+		62DC27F82C4FC605002445CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62DC27F72C4FC605002445CB /* Preview Assets.xcassets */; };
+		62DC28022C4FC606002445CB /* SlipsReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC28012C4FC606002445CB /* SlipsReaderTests.swift */; };
+		62DC280C2C4FC606002445CB /* SlipsReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC280B2C4FC606002445CB /* SlipsReaderUITests.swift */; };
+		62DC280E2C4FC606002445CB /* SlipsReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC280D2C4FC606002445CB /* SlipsReaderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62DC27FE2C4FC606002445CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62DC27E52C4FC604002445CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62DC27EC2C4FC604002445CB;
+			remoteInfo = SlipsReader;
+		};
+		62DC28082C4FC606002445CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62DC27E52C4FC604002445CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62DC27EC2C4FC604002445CB;
+			remoteInfo = SlipsReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62DC27ED2C4FC604002445CB /* SlipsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlipsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DC27F02C4FC604002445CB /* SlipsReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipsReaderApp.swift; sourceTree = "<group>"; };
+		62DC27F22C4FC604002445CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		62DC27F42C4FC605002445CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62DC27F72C4FC605002445CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62DC27FD2C4FC606002445CB /* SlipsReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlipsReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DC28012C4FC606002445CB /* SlipsReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipsReaderTests.swift; sourceTree = "<group>"; };
+		62DC28072C4FC606002445CB /* SlipsReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlipsReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62DC280B2C4FC606002445CB /* SlipsReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipsReaderUITests.swift; sourceTree = "<group>"; };
+		62DC280D2C4FC606002445CB /* SlipsReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipsReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62DC27EA2C4FC604002445CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DC27FA2C4FC606002445CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DC28042C4FC606002445CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62DC27E42C4FC604002445CB = {
+			isa = PBXGroup;
+			children = (
+				62DC27EF2C4FC604002445CB /* SlipsReader */,
+				62DC28002C4FC606002445CB /* SlipsReaderTests */,
+				62DC280A2C4FC606002445CB /* SlipsReaderUITests */,
+				62DC27EE2C4FC604002445CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62DC27EE2C4FC604002445CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62DC27ED2C4FC604002445CB /* SlipsReader.app */,
+				62DC27FD2C4FC606002445CB /* SlipsReaderTests.xctest */,
+				62DC28072C4FC606002445CB /* SlipsReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62DC27EF2C4FC604002445CB /* SlipsReader */ = {
+			isa = PBXGroup;
+			children = (
+				62DC27F02C4FC604002445CB /* SlipsReaderApp.swift */,
+				62DC27F22C4FC604002445CB /* ContentView.swift */,
+				62DC27F42C4FC605002445CB /* Assets.xcassets */,
+				62DC27F62C4FC605002445CB /* Preview Content */,
+			);
+			path = SlipsReader;
+			sourceTree = "<group>";
+		};
+		62DC27F62C4FC605002445CB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				62DC27F72C4FC605002445CB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62DC28002C4FC606002445CB /* SlipsReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				62DC28012C4FC606002445CB /* SlipsReaderTests.swift */,
+			);
+			path = SlipsReaderTests;
+			sourceTree = "<group>";
+		};
+		62DC280A2C4FC606002445CB /* SlipsReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62DC280B2C4FC606002445CB /* SlipsReaderUITests.swift */,
+				62DC280D2C4FC606002445CB /* SlipsReaderUITestsLaunchTests.swift */,
+			);
+			path = SlipsReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62DC27EC2C4FC604002445CB /* SlipsReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62DC28112C4FC606002445CB /* Build configuration list for PBXNativeTarget "SlipsReader" */;
+			buildPhases = (
+				62DC27E92C4FC604002445CB /* Sources */,
+				62DC27EA2C4FC604002445CB /* Frameworks */,
+				62DC27EB2C4FC604002445CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlipsReader;
+			productName = SlipsReader;
+			productReference = 62DC27ED2C4FC604002445CB /* SlipsReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62DC27FC2C4FC606002445CB /* SlipsReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62DC28142C4FC606002445CB /* Build configuration list for PBXNativeTarget "SlipsReaderTests" */;
+			buildPhases = (
+				62DC27F92C4FC606002445CB /* Sources */,
+				62DC27FA2C4FC606002445CB /* Frameworks */,
+				62DC27FB2C4FC606002445CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62DC27FF2C4FC606002445CB /* PBXTargetDependency */,
+			);
+			name = SlipsReaderTests;
+			productName = SlipsReaderTests;
+			productReference = 62DC27FD2C4FC606002445CB /* SlipsReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62DC28062C4FC606002445CB /* SlipsReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62DC28172C4FC606002445CB /* Build configuration list for PBXNativeTarget "SlipsReaderUITests" */;
+			buildPhases = (
+				62DC28032C4FC606002445CB /* Sources */,
+				62DC28042C4FC606002445CB /* Frameworks */,
+				62DC28052C4FC606002445CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62DC28092C4FC606002445CB /* PBXTargetDependency */,
+			);
+			name = SlipsReaderUITests;
+			productName = SlipsReaderUITests;
+			productReference = 62DC28072C4FC606002445CB /* SlipsReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62DC27E52C4FC604002445CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					62DC27EC2C4FC604002445CB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					62DC27FC2C4FC606002445CB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 62DC27EC2C4FC604002445CB;
+					};
+					62DC28062C4FC606002445CB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 62DC27EC2C4FC604002445CB;
+					};
+				};
+			};
+			buildConfigurationList = 62DC27E82C4FC604002445CB /* Build configuration list for PBXProject "SlipsReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62DC27E42C4FC604002445CB;
+			productRefGroup = 62DC27EE2C4FC604002445CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62DC27EC2C4FC604002445CB /* SlipsReader */,
+				62DC27FC2C4FC606002445CB /* SlipsReaderTests */,
+				62DC28062C4FC606002445CB /* SlipsReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62DC27EB2C4FC604002445CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DC27F82C4FC605002445CB /* Preview Assets.xcassets in Resources */,
+				62DC27F52C4FC605002445CB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DC27FB2C4FC606002445CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DC28052C4FC606002445CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62DC27E92C4FC604002445CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DC27F32C4FC604002445CB /* ContentView.swift in Sources */,
+				62DC27F12C4FC604002445CB /* SlipsReaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DC27F92C4FC606002445CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DC28022C4FC606002445CB /* SlipsReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62DC28032C4FC606002445CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DC280C2C4FC606002445CB /* SlipsReaderUITests.swift in Sources */,
+				62DC280E2C4FC606002445CB /* SlipsReaderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62DC27FF2C4FC606002445CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62DC27EC2C4FC604002445CB /* SlipsReader */;
+			targetProxy = 62DC27FE2C4FC606002445CB /* PBXContainerItemProxy */;
+		};
+		62DC28092C4FC606002445CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62DC27EC2C4FC604002445CB /* SlipsReader */;
+			targetProxy = 62DC28082C4FC606002445CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62DC280F2C4FC606002445CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62DC28102C4FC606002445CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62DC28122C4FC606002445CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SlipsReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcharge.SlipsReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62DC28132C4FC606002445CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SlipsReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcharge.SlipsReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62DC28152C4FC606002445CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcharge.SlipsReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlipsReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SlipsReader";
+			};
+			name = Debug;
+		};
+		62DC28162C4FC606002445CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcharge.SlipsReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlipsReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SlipsReader";
+			};
+			name = Release;
+		};
+		62DC28182C4FC606002445CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcharge.SlipsReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlipsReader;
+			};
+			name = Debug;
+		};
+		62DC28192C4FC606002445CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.itcharge.SlipsReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlipsReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62DC27E82C4FC604002445CB /* Build configuration list for PBXProject "SlipsReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62DC280F2C4FC606002445CB /* Debug */,
+				62DC28102C4FC606002445CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62DC28112C4FC606002445CB /* Build configuration list for PBXNativeTarget "SlipsReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62DC28122C4FC606002445CB /* Debug */,
+				62DC28132C4FC606002445CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62DC28142C4FC606002445CB /* Build configuration list for PBXNativeTarget "SlipsReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62DC28152C4FC606002445CB /* Debug */,
+				62DC28162C4FC606002445CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62DC28172C4FC606002445CB /* Build configuration list for PBXNativeTarget "SlipsReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62DC28182C4FC606002445CB /* Debug */,
+				62DC28192C4FC606002445CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62DC27E52C4FC604002445CB /* Project object */;
+}
