@@ -14,6 +14,10 @@
 		62DC28022C4FC606002445CB /* SlipsReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC28012C4FC606002445CB /* SlipsReaderTests.swift */; };
 		62DC280C2C4FC606002445CB /* SlipsReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC280B2C4FC606002445CB /* SlipsReaderUITests.swift */; };
 		62DC280E2C4FC606002445CB /* SlipsReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62DC280D2C4FC606002445CB /* SlipsReaderUITestsLaunchTests.swift */; };
+		9566879A2CD4ABC4005C890C /* BooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956687992CD4ABC4005C890C /* BooksView.swift */; };
+		9566879C2CD4AC28005C890C /* ToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566879B2CD4AC28005C890C /* ToolsView.swift */; };
+		9566879E2CD4AC41005C890C /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9566879D2CD4AC41005C890C /* ProfileView.swift */; };
+		956687A32CD4C27A005C890C /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956687A22CD4C27A005C890C /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		62DC28072C4FC606002445CB /* SlipsReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlipsReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62DC280B2C4FC606002445CB /* SlipsReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipsReaderUITests.swift; sourceTree = "<group>"; };
 		62DC280D2C4FC606002445CB /* SlipsReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlipsReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		956687992CD4ABC4005C890C /* BooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksView.swift; sourceTree = "<group>"; };
+		9566879B2CD4AC28005C890C /* ToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsView.swift; sourceTree = "<group>"; };
+		9566879D2CD4AC41005C890C /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		956687A22CD4C27A005C890C /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,12 @@
 		62DC27EF2C4FC604002445CB /* SlipsReader */ = {
 			isa = PBXGroup;
 			children = (
+				956687A12CD4C27A005C890C /* Models */,
 				62DC27F02C4FC604002445CB /* SlipsReaderApp.swift */,
 				62DC27F22C4FC604002445CB /* ContentView.swift */,
+				956687992CD4ABC4005C890C /* BooksView.swift */,
+				9566879B2CD4AC28005C890C /* ToolsView.swift */,
+				9566879D2CD4AC41005C890C /* ProfileView.swift */,
 				62DC27F42C4FC605002445CB /* Assets.xcassets */,
 				62DC27F62C4FC605002445CB /* Preview Content */,
 			);
@@ -125,6 +137,14 @@
 				62DC280D2C4FC606002445CB /* SlipsReaderUITestsLaunchTests.swift */,
 			);
 			path = SlipsReaderUITests;
+			sourceTree = "<group>";
+		};
+		956687A12CD4C27A005C890C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				956687A22CD4C27A005C890C /* Book.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				62DC27F32C4FC604002445CB /* ContentView.swift in Sources */,
+				9566879A2CD4ABC4005C890C /* BooksView.swift in Sources */,
+				956687A32CD4C27A005C890C /* Book.swift in Sources */,
+				9566879E2CD4AC41005C890C /* ProfileView.swift in Sources */,
+				9566879C2CD4AC28005C890C /* ToolsView.swift in Sources */,
 				62DC27F12C4FC604002445CB /* SlipsReaderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,11 +448,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SlipsReader/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "简牍阅读器";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,11 +479,14 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SlipsReader/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "简牍阅读器";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
